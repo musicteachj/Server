@@ -1,11 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "8.1.1",
-    "npm": "5.0.3"
+  "dependencies": {
+    "express": "^4.15.4"
   },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
@@ -13,14 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/musicteachj/Server.git"
   },
-  "author": "James L",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/musicteachj/Server/issues"
   },
-  "homepage": "https://github.com/musicteachj/Server#readme",
-  "description": "",
-  "dependencies": {
-    "express": "^4.15.4"
-  }
+  "homepage": "https://github.com/musicteachj/Server#readme"
 }
